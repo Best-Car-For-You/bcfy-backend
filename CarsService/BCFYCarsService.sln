@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34701.34
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BCFYCarsService", "BCFYCarsService\BCFYCarsService.csproj", "{59E728A1-F91B-46FF-80BD-A6B4206101B2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BCFYCarsService.Tests", "BCFYCarsService.Tests\BCFYCarsService.Tests.csproj", "{D4041E63-5868-4B97-B541-668CC9E8B918}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{59E728A1-F91B-46FF-80BD-A6B4206101B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59E728A1-F91B-46FF-80BD-A6B4206101B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59E728A1-F91B-46FF-80BD-A6B4206101B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59E728A1-F91B-46FF-80BD-A6B4206101B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4041E63-5868-4B97-B541-668CC9E8B918}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4041E63-5868-4B97-B541-668CC9E8B918}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4041E63-5868-4B97-B541-668CC9E8B918}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4041E63-5868-4B97-B541-668CC9E8B918}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {81A23555-0044-4F73-8727-57FF5674CDFD}
+	EndGlobalSection
+EndGlobal
