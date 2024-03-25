@@ -46,8 +46,8 @@ namespace BCFYCarsService
                 .Select(item => ConvertItemsToDictionary(new List<Dictionary<string, AttributeValue>> { item }).First())
                 .Where(item =>
                     item["model"].ToString() == input.Model &&
-                    (decimal)item["price"] >= input.MinPrice &&
-                    (decimal)item["price"] <= input.MaxPrice
+                    (decimal)item["minPrice"] <= input.MinPrice &&
+                    (decimal)item["maxPrice"] >= input.MaxPrice
                 ).ToList();
 
             return filteredItems; // This can now be serialized into JSON
