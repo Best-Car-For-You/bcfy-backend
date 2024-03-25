@@ -13,6 +13,6 @@
     <PackageReference Include="xunit.runner.visualstudio" Version="2.4.5" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\AWSLambda1\BCFYCarsService.csproj" />
+    <ProjectReference Include="..\BCFYCarsService\BCFYCarsService.csproj" />
   </ItemGroup>
 </Project>
