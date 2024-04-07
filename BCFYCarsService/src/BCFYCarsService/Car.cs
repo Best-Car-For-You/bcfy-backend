@@ -20,5 +20,14 @@ namespace BCFYCarsService
 
         [DynamoDBProperty("maxPrice"), JsonPropertyName("maxPrice")]
         public decimal MaxPrice { get; set; }
+
+        [DynamoDBProperty("transmission"), JsonPropertyName("transmission")]
+        public string Transmission { get; set; }
+
+        [DynamoDBProperty("fuelType"), JsonPropertyName("fuelType")]
+        public string FuelType { get; set; }
+
+        [DynamoDBProperty("year"), JsonPropertyName("year")]
+        public int Year { get; set; }
     }
 }
