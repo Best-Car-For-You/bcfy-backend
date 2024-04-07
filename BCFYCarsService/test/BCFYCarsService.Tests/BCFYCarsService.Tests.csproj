@@ -1,4 +1,4 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
@@ -13,6 +13,6 @@
     <PackageReference Include="xunit.runner.visualstudio" Version="2.4.5" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\BCFYCarsService\BCFYCarsService.csproj" />
+    <ProjectReference Include="..\..\src\BCFYCarsService\BCFYCarsService.csproj" />
   </ItemGroup>
 </Project>

@@ -6,7 +6,7 @@ namespace BCFYCarsService.Tests;
 
 public class FunctionTest
 {
-    /*[Fact]
+    [Fact]
     public void TestToUpperFunction()
     {
 
@@ -16,5 +16,5 @@ public class FunctionTest
         var upperCase = function.FunctionHandler("hello world", context);
 
         Assert.Equal("HELLO WORLD", upperCase);
-    }*/
+    }
 }
