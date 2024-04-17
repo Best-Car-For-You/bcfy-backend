@@ -29,5 +29,20 @@ namespace BCFYCarsService
 
         [DynamoDBProperty("year"), JsonPropertyName("year")]
         public int Year { get; set; }
+
+        [DynamoDBProperty("numberOfDoors"), JsonPropertyName("numberOfDoors")]
+        public int NumberOfDoors { get; set; }
+
+        [DynamoDBProperty("numberOfSeats"), JsonPropertyName("numberOfSeats")]
+        public int NumberOfSeats { get; set; }
+
+        [DynamoDBProperty("insuranceGroup"), JsonPropertyName("insuranceGroup")]
+        public int InsuranceGroup { get; set; }
+
+        [DynamoDBProperty("engineSize"), JsonPropertyName("engineSize")]
+        public string EngineSize { get; set; }
+
+        [DynamoDBProperty("version"), JsonPropertyName("version")]
+        public string Version { get; set; }
     }
 }
