@@ -44,5 +44,8 @@ namespace BCFYCarsService
 
         [DynamoDBProperty("version"), JsonPropertyName("version")]
         public string Version { get; set; }
+
+        [DynamoDBProperty("bodyType"), JsonPropertyName("bodyType")]
+        public string BodyType { get; set; }
     }
 }
